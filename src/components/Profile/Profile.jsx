@@ -29,11 +29,6 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   );
 };
 
-// export const Profile = ({ text }) => {
-//   console.log(text);
-//   return <div className={css.name}>Profile text</div>;
-// };
-
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
