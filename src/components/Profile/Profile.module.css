@@ -46,17 +46,17 @@
   background-color: rgb(242, 247, 251);
   list-style-type: none;
   display: flex;
-  gap: 60px;
+  gap: 20px;
   justify-content: center;
-  padding-left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .item {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px 20px;
   align-items: center;
 }
 
