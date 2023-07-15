@@ -5,6 +5,7 @@ import friends from '../friends.json';
 import css from './App.module.css';
 import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
+// import { FriendListItem } from './FriendListItem/FriendListItem';
 
 export const App = () => {
   return (
@@ -19,7 +20,7 @@ export const App = () => {
 
       <Statistics title="UPLOAD STATS" stats={data} />
       {/* <Statistics stats={data} /> */}
-      <FriendList friends={friends} />
+      <FriendList friends={friends}></FriendList>
     </div>
   );
 };
